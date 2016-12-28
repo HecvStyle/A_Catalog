@@ -15,6 +15,8 @@
 		5D8A531A1E139043005D1996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D8A53181E139043005D1996 /* LaunchScreen.storyboard */; };
 		5D8A53251E139043005D1996 /* A_CatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A53241E139043005D1996 /* A_CatalogTests.m */; };
 		5D8A53301E139043005D1996 /* A_CatalogUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A532F1E139043005D1996 /* A_CatalogUITests.m */; };
+		5D8A533F1E1396B3005D1996 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8A533E1E1396B3005D1996 /* CTMediator+A.m */; };
+		E40B8EEFCC6C8D4A67CE76FB /* libPods-A_Catalog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F2FAC99A8FA72CD1E665E4 /* libPods-A_Catalog.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26F2FAC99A8FA72CD1E665E4 /* libPods-A_Catalog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A_Catalog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2835360AC3FC52C70A1C70A4 /* Pods-A_Catalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Catalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-A_Catalog/Pods-A_Catalog.release.xcconfig"; sourceTree = "<group>"; };
+		593366060013730F0BDBF9BC /* Pods-A_Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Catalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A_Catalog/Pods-A_Catalog.debug.xcconfig"; sourceTree = "<group>"; };
 		5D8A53071E139043005D1996 /* A_Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8A530B1E139043005D1996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D8A530D1E139043005D1996 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		5D8A532B1E139043005D1996 /* A_CatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A_CatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8A532F1E139043005D1996 /* A_CatalogUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_CatalogUITests.m; sourceTree = "<group>"; };
 		5D8A53311E139043005D1996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D8A533D1E1396B3005D1996 /* CTMediator+A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CTMediator+A.h"; path = "A_Catalog/CTMediator+A.h"; sourceTree = "<group>"; };
+		5D8A533E1E1396B3005D1996 /* CTMediator+A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+A.m"; path = "A_Catalog/CTMediator+A.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E40B8EEFCC6C8D4A67CE76FB /* libPods-A_Catalog.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		444235BFB9DB6A1DB11621DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26F2FAC99A8FA72CD1E665E4 /* libPods-A_Catalog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D8A52FE1E139043005D1996 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +101,8 @@
 				5D8A53231E139043005D1996 /* A_CatalogTests */,
 				5D8A532E1E139043005D1996 /* A_CatalogUITests */,
 				5D8A53081E139043005D1996 /* Products */,
+				E2D07830880E0D12F1B1D5FB /* Pods */,
+				444235BFB9DB6A1DB11621DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +128,8 @@
 				5D8A53181E139043005D1996 /* LaunchScreen.storyboard */,
 				5D8A531B1E139043005D1996 /* Info.plist */,
 				5D8A530A1E139043005D1996 /* Supporting Files */,
+				5D8A533D1E1396B3005D1996 /* CTMediator+A.h */,
+				5D8A533E1E1396B3005D1996 /* CTMediator+A.m */,
 			);
 			path = A_Catalog;
 			sourceTree = "<group>";
@@ -140,6 +160,15 @@
 			path = A_CatalogUITests;
 			sourceTree = "<group>";
 		};
+		E2D07830880E0D12F1B1D5FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				593366060013730F0BDBF9BC /* Pods-A_Catalog.debug.xcconfig */,
+				2835360AC3FC52C70A1C70A4 /* Pods-A_Catalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D8A53341E139043005D1996 /* Build configuration list for PBXNativeTarget "A_Catalog" */;
 			buildPhases = (
+				80F63AB89E35251AB2054298 /* [CP] Check Pods Manifest.lock */,
 				5D8A53031E139043005D1996 /* Sources */,
 				5D8A53041E139043005D1996 /* Frameworks */,
 				5D8A53051E139043005D1996 /* Resources */,
+				1006EFF730A9A21D2944995E /* [CP] Embed Pods Frameworks */,
+				B24AFE6364A47E3970373F09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +303,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1006EFF730A9A21D2944995E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A_Catalog/Pods-A_Catalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80F63AB89E35251AB2054298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B24AFE6364A47E3970373F09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A_Catalog/Pods-A_Catalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D8A53031E139043005D1996 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5D8A53121E139043005D1996 /* ViewController.m in Sources */,
+				5D8A533F1E1396B3005D1996 /* CTMediator+A.m in Sources */,
 				5D8A530F1E139043005D1996 /* AppDelegate.m in Sources */,
 				5D8A530C1E139043005D1996 /* main.m in Sources */,
 			);
@@ -423,6 +504,7 @@
 		};
 		5D8A53351E139043005D1996 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593366060013730F0BDBF9BC /* Pods-A_Catalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 32B2568HYJ;
@@ -435,6 +517,7 @@
 		};
 		5D8A53361E139043005D1996 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2835360AC3FC52C70A1C70A4 /* Pods-A_Catalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 32B2568HYJ;
@@ -514,6 +597,7 @@
 				5D8A53361E139043005D1996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D8A53371E139043005D1996 /* Build configuration list for PBXNativeTarget "A_CatalogTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +606,7 @@
 				5D8A53391E139043005D1996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D8A533A1E139043005D1996 /* Build configuration list for PBXNativeTarget "A_CatalogUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +615,7 @@
 				5D8A533C1E139043005D1996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
